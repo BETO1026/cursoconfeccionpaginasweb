@@ -1,0 +1,24 @@
+h1 {
+    color: #3f72a2;
+    text-align: center;
+    font-family: "p"
+}
+
+.subtitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1f7a5a;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.contenido {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f72a2;
+
+}
+
+ul {
+
+    text-align: left;
+}
