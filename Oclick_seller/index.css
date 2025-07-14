@@ -1,0 +1,146 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+/* Lista de enlaces alineada a la izquierda */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Opcional: quitar <br> innecesarios, mejor usa separación con flex/gap */
+nav li {
+    display: inline-block;
+}
+
+/* Dropdown alineado a la derecha automáticamente */
+.dropdown {
+    position: relative;
+}
+
+/* Estilo del botón */
+.dropdown button {
+    background-color: #bdbebe;
+    color: rgb(20, 17, 170);
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.dropdown :hover{
+    background-color: #f6fa096c;
+      transform: scale(1.1);
+    
+}
+
+/* Contenido del menú */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(18, 194, 218);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #94f1fd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+video {
+    width: 100%;
+    pointer-events: none;
+}
+
+.botonnosotros {
+
+    color: #fff;
+    /* Texto blanco */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 14px 28px;
+    /* Espacio interno */
+    border: 1px solid#dfe208;
+    /* Borde azul oscuro */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Color al pasar el mouse */
+.botonnosotros:hover {
+    transform: scale(1.1);
+    background-color: #b3dbe0;
+}
+
+.botonproyectos:hover {
+    transform: scale(1.1);
+    background-color: #b3dbe0;
+}
+
+.botonproyectos {
+    color: #fff;
+    /* Texto blanco */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 14px 28px;
+    /* Espacio interno */
+    border: 1px solid #dfe208;
+    /* Borde azul oscuro */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botonServicios {
+    color: #fff;
+    /* Texto blanco */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 14px 28px;
+    /* Espacio interno */
+    border: 1px solid #dfe208;
+    /* Borde azul oscuro */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botonServicios:hover {
+    transform: scale(1.1);
+    background-color: #b3dbe0;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 31, 129);
+}
+.bombilla img{ 
+
+    justify-content: center;
+    position: fixed;
+    
+
+}
