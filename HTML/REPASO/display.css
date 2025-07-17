@@ -1,0 +1,41 @@
+
+
+button {
+    background-color: aqua;
+
+    justify-content: space-between;
+  
+    
+
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #b3dbe0;
+
+}
+.box {
+    background-color: aquamarine;
+    padding: 10px;
+   margin: 10px;
+   width: 100px;
+   height: 100px;
+   border: 2px black;
+    padding: 10px;
+    margin: 10px;
+    width: 150;
+    height: 200px;
+}
+.block{ 
+    display:flex;
+    display: inline-block;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    text-align: center;
+    border: 8px black;
+   
+}

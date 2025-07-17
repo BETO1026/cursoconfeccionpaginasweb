@@ -10,20 +10,9 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
-
-/* Opcional: quitar <br> innecesarios, mejor usa separación con flex/gap */
-nav li {
-    display: inline-block;
-}
-
-/* Dropdown alineado a la derecha automáticamente */
-.dropdown {
-    position: relative;
-}
-
 /* Estilo del botón */
 .dropdown button {
     background-color: #bdbebe;
@@ -45,11 +34,10 @@ nav li {
     display: none;
     position: absolute;
     right: 0;
-    background-color: rgb(18, 194, 218);
+    background-color: rgb(110, 216, 230);
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .dropdown-content a {
@@ -140,7 +128,4 @@ a{
 .bombilla img{ 
 
     justify-content: center;
-    position: fixed;
-    
-
 }

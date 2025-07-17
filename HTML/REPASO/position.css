@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(157, 216, 203, 0.568);
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+.container{
+     position: relative;
+    height: 600%;
+    background-color: rgba(193, 193, 248, 0.932);
+    padding: 20%;
+
+}
+.container div{
+   
+    margin-bottom: 30px;
+    color: rgb(15, 15, 15);
+    padding: 5%;
+}
+.static{
+    position: static;
+    background-color: rgb(78, 228, 153);
+}
+.relative{
+    position: relative;
+    background-color: rgb(98, 211, 240);
+
+}
+.absolute{
+    position:absolute;
+    background-color: rgb(236, 105, 105);
+    top: 50%;
+    left: 15px;
+
+}
+.fixed{
+    position: fixed;
+    background-color: blueviolet;
+    
+}
+.sticky{
+    position: sticky;
+    background-color: rgb(235, 189, 91);
+
+}
